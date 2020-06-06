@@ -1,0 +1,74 @@
+{
+    "menu": {
+        "characters": "Characters",
+        "houses": "Houses",
+        "books": "Books",
+        "logout": "LogOut"
+    },
+    "button": {
+        "login": "Log in",
+        "back": "Back"
+    },
+    "notification": {
+        "username": "Please input your username!",
+        "password": "Please input your password!",
+        "title": "Error",
+        "error": "Data failed"
+    },
+    "login": {
+        "username": "Username",
+        "password": "Password"
+    },
+    "characters": {
+        "title_list": "Characters List",
+        "title_detail": "Character Detail",
+        "name": "Name",
+        "gender": "Gender",
+        "culture": "Culture",
+        "born": "Born",
+        "father": "Father",
+        "mother": "Mother",
+        "died": "Died",
+        "spouse": "Spouse",
+        "playedBy": "Played By",
+        "titles": "Titles",
+        "tvSeries": "TvSeries",
+        "allegiances": "Allegiances",
+        "aliases": "Aliases",
+        "books": "Books",
+        "povBooks": "PovBooks"
+    },
+    "books": {
+        "title_list": "Books List",
+        "title_detail": "Book Detail",
+        "name": "Name",
+        "country": "Country",
+        "isbn": "Isbn",
+        "mediaType": "Media type",
+        "numberOfPages": "Number Of Pages",
+        "publisher": "Publisher",
+        "released": "Released",
+        "authors": "Authors",
+        "povCharacters": "PovCharacters",
+        "characters": "Characters"
+    },
+    "houses": {
+        "title_list": "Houses List",
+        "title_detail": "House Detail",
+        "name": "Name",
+        "region": "Region",
+        "coatOfArms": "Coat Of Arms",
+        "diedOut": "Died Out",
+        "founder": "Founder",
+        "founded": "Founded",
+        "words": "Words",
+        "currentLord": "Current Lord",
+        "overLord": "Over Lord",
+        "heir": "Heir",
+        "swornMembers": "Sworn Members",
+        "ancestralWeapons": "Ancestral Weapons",
+        "cadetBranches": "Cadet Branches",
+        "seats": "Seats",
+        "titles": "Titles"
+    }
+}
