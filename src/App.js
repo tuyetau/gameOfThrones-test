@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css'
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom'
 import MenuComponent from './components/menu'
 import LoginPage from './page/login'
 import CharactersList from './page/characters/list'
@@ -14,10 +14,7 @@ import 'antd/dist/antd.css'
 import './main.scss'
 
 const App = () => {
-    console.log(localStorage.getItem('userName'))
-
     if (localStorage.getItem('userName')) {
-        console.log('okokoko')
         return (
             <Router>
                 <MenuComponent />
@@ -33,7 +30,8 @@ const App = () => {
     } else
         return (
             <Router>
-                <Route exact path='/' component={LoginPage} />
+                <Redirect to='/' />
+                <LoginPage />
             </Router>
         )
 }

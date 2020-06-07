@@ -36,7 +36,7 @@ const CharacterDetail = () => {
         if (state.loading) {
             fetchData()
         }
-    }, [])
+    })
 
     if (state.loading) {
         return <div className='loader' />
